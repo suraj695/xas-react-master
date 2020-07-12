@@ -147,7 +147,7 @@ export default class Form_arts extends React.Component {
       value6:this.state.value6,
     };
       console.log(user)
-    axios.post(`https://xaviers-analytic-system.herokuapp.com/form_arts`, { user })
+    axios.post(`https://xas-python.azurewebsites.net/form_arts`, { user })
        }
 
  
